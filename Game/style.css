@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./red.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    color: #FF5300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+a {
+    font-weight: 800;
+    margin: 10px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 14px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.button__line {
+    position: absolute;
+    display: block;
+
+}
+
+.button__line__top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2693f3);
+    
+}
+
+.button:hover .button__line__top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button__line__bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2693f3);
+    
+}
+
+.button:hover .button__line__bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button__line__left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #2693f3);
+    
+}
+
+.button:hover .button__line__left {
+    bottom: 100%;
+    transition: 1s;
+}
+
+.button__line__right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2693f3);
+    
+}
+
+.button:hover .button__line__right {
+    top: 100%;
+    transition: 1s;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #2693f3, 0 0 40px #2693f3, 0 0 80px #2693f3 ;
+    background-color: #2693f3;
+    color: #000;
+    transition-delay: 0.9s;
+}
+
+
+.button2 {
+    position: relative;
+    display: inline-block;
+    padding: 14px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.button2__line {
+    position: absolute;
+    display: block;
+
+}
+
+.button2__line__top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #A4F43D);
+    
+}
+
+.button2:hover .button2__line__top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button2__line__bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #A4F43D);
+    
+}
+
+.button2:hover .button2__line__bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button2__line__left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #A4F43D);
+    
+}
+
+.button2:hover .button2__line__left {
+    bottom: 100%;
+    transition: 1s;
+}
+
+.button2__line__right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #A4F43D);
+    
+}
+
+.button2:hover .button2__line__right {
+    top: 100%;
+    transition: 1s;
+}
+
+.button2:hover {
+    box-shadow: 0 0 10px #A4F43D, 0 0 40px #A4F43D, 0 0 80px #A4F43D ;
+    background-color: #A4F43D;
+    color: #000;
+    transition-delay: 0.9s;
+}
+
+
+.button3 {
+    position: relative;
+    display: inline-block;
+    padding: 14px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.button3__line {
+    position: absolute;
+    display: block;
+
+}
+
+.button3__line__top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #FD0006);
+    
+}
+
+.button3:hover .button3__line__top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button3__line__bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #FD0006);
+    
+}
+
+.button3:hover .button3__line__bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.button3__line__left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #FD0006);
+    
+}
+
+.button3:hover .button3__line__left {
+    bottom: 100%;
+    transition: 1s;
+}
+
+.button3__line__right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #FD0006);
+    
+}
+
+.button3:hover .button3__line__right {
+    top: 100%;
+    transition: 1s;
+}
+
+.button3:hover {
+    box-shadow: 0 0 10px #FD0006, 0 0 40px #FD0006, 0 0 80px #FD0006 ;
+    background-color: #FD0006;
+    color: #000;
+    transition-delay: 0.9s;
+}
